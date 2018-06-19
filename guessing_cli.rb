@@ -7,7 +7,7 @@ def run_guessing_game
   end
   if guess == number
     puts "You guessed the correct number!"
- end
+  end
     
     
 end
