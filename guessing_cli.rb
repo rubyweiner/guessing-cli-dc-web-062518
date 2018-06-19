@@ -6,11 +6,7 @@ def run_guessing_game
     puts "Goodbye!"
   elsif guess == number
     puts "You guessed the correct number!"
-  elsif guess.between?(1..6) != true
-    puts "Invalid input"
-  else
-    puts "The computer guessed #{number}."
-  end
+ end
     
     
 end
